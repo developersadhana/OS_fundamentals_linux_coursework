@@ -21,7 +21,7 @@ if [[ $choice == 2 ]]; then
 echo "Enter the name of the file you wish to copy ="
 read file
 echo "Enter the destination file ="
-read $dfile
+read dfile
 
 if [[ -e $file ]]; then
             cp "$file" "$dfile"
